@@ -15,11 +15,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.549); /* oscurece la foto para mejor legibilidad */
+  background: rgba(0, 0, 0, 0.653); /* oscurece la foto para mejor legibilidad */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
 }
 
 .banner-content {
@@ -27,11 +26,12 @@
   color: #fff;
   max-width: 600px;
   text-shadow: 2px 4px 12px rgba(0,0,0,0.7);
+  margin-top: 10px;
 }
 
 .titulo-banner {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   font-weight: 700;
 text-shadow: 2px 4px 12px rgba(0,0,0,0.7);
 }
@@ -39,7 +39,7 @@ text-shadow: 2px 4px 12px rgba(0,0,0,0.7);
 .parrafo-banner {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  text-shadow: 1px 2px 8px rgba(0,0,0,0.6);
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.693);
 }
 
 .banner-cta {

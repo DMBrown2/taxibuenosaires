@@ -2,29 +2,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faShieldAlt, faCarSide, faMoneyCheck } from "@fortawesome/free-solid-svg-icons"; 
 import "./Nosotros.css";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
-// import Corolla from "../../assets/images/flota/corolla.jpeg";
-import Van from "../../assets/images/flota/van.avif";
 import Kangoo from "../../assets/images/flota/kangoo.jpeg";
-import ChevroletSpin from "../../assets/images/flota/chevrolet-spin.avif";
+import Corolla from "../../assets/images/flota/corolla.jpg";
+import ChevroletSpin from "../../assets/images/flota/SPIN.jpg";
 import Button from "../../components/Button/Button";
 
 
 export default function SobreNosotros() {
   const flota = [
     {
-      nombre: "Kangoo",
+      nombre: "Renault Kangoo",
       descripcion: "Vehículo familiar con amplio espacio para equipaje.",
       imagen: Kangoo,
     },
-    // {
-    //   nombre: "Toyota Corolla",
-    //   descripcion: "Cómodo y eficiente, ideal para traslados urbanos y aeropuerto.",
-    //   imagen: Corolla,
-    // },
     {
-      nombre: "Camioneta Van",
-      descripcion: "Espacioso y elegante, perfecto para viajes grupales.",
-      imagen: Van,
+      nombre: "Toyota Corolla",
+      descripcion: "Espacioso y elegante, la mejor elección para viajes ejecutivos.",
+      imagen: Corolla,
     },
     {
       nombre: "Chevrolet Spin",
@@ -83,7 +77,7 @@ export default function SobreNosotros() {
 
         <div className="nosotros-cta">
           <a 
-          href="https://wa.me/+5491132681603"
+          href="https://wa.me/+5491157678654"
           target='_blank'
           rel='"noopener noreferrer"'>
 

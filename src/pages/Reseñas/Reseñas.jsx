@@ -113,9 +113,12 @@ export default function Reseñas() {
       </div>
 
       <div className="ver-mas-container">
+        <a href="https://www.google.com/maps/place/taxibaires/@-34.5980092,-58.4317421,17z/data=!4m18!1m9!3m8!1s0x95bccb4e2788eab5:0xe491463e666cbfce!2staxibaires!8m2!3d-34.5980092!4d-58.4317421!9m1!1b1!16s%2Fg%2F11x_9ln31t!3m7!1s0x95bccb4e2788eab5:0xe491463e666cbfce!8m2!3d-34.5980092!4d-58.4317421!9m1!1b1!16s%2Fg%2F11x_9ln31t?entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+
         <Button variant="outline" size="big" >
           Ver más reseñas
         </Button>
+        </a>
 
       
       </div>
