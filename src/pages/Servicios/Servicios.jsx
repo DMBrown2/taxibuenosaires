@@ -1,9 +1,9 @@
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Button from "../../components/Button/Button";
 import "./Servicios.css";
-import fotoAeropuerto from '../../assets/images/servicios/aeropuerto.jpg'
-import fotoTurismo from '../../assets/images/servicios/turismo.jpg'
-import fotoLargaDistancia from '../../assets/images/servicios/larga-distancia.jpg'
+import fotoAeropuerto from '../../assets/images/servicios/aeropuerto.webp'
+import fotoTurismo from '../../assets/images/servicios/turismo.webp'
+import fotoLargaDistancia from '../../assets/images/servicios/larga-distancia.webp'
 
 export default function Servicios() {
   const servicios = [
@@ -43,6 +43,7 @@ export default function Servicios() {
                 src={servicio.imagen}
                 alt={servicio.titulo}
                 className="servicio-img"
+                loading="lazy"
               />
               <div className="servicio-content">
                 <h3 className="servicio-titulo">{servicio.titulo}</h3>

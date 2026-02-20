@@ -4,7 +4,7 @@ import "./Nosotros.css";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Kangoo from "../../assets/images/flota/kangoo.jpeg";
 import Corolla from "../../assets/images/flota/corolla.jpg";
-import ChevroletSpin from "../../assets/images/flota/SPIN.jpg";
+import ChevroletSpin from "../../assets/images/flota/SPIN.webp";
 import Button from "../../components/Button/Button";
 
 
@@ -66,7 +66,7 @@ export default function SobreNosotros() {
         <div className="flota-grid">
           {flota.map((vehiculo, index) => (
               <div key={index} className="vehiculo-card">
-              <img src={vehiculo.imagen} alt={vehiculo.nombre} className="vehiculo-img" />
+              <img src={vehiculo.imagen} alt={vehiculo.nombre} className="vehiculo-img" loading="lazy" />
               <div className="vehiculo-content">
                 <h3 className="vehiculo-nombre">{vehiculo.nombre}</h3>
                 <p className="vehiculo-descripcion">{vehiculo.descripcion}</p>

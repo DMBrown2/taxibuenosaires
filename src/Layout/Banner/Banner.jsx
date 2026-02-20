@@ -1,4 +1,4 @@
-import taxiHeader from '../../assets/images/banner/banner1.jpg';
+import taxiHeader from '../../assets/images/banner/banner1.webp';
 import Button from '../../components/Button/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
