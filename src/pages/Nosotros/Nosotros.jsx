@@ -3,7 +3,7 @@ import { faClock, faShieldAlt, faCarSide, faMoneyCheck } from "@fortawesome/free
 import "./Nosotros.css";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Kangoo from "../../assets/images/flota/kangoo.jpeg";
-import Corolla from "../../assets/images/flota/corolla.jpg";
+import peugeot from "../../assets/images/flota/peugeot.jpg";
 import ChevroletSpin from "../../assets/images/flota/SPIN.webp";
 import Button from "../../components/Button/Button";
 
@@ -16,9 +16,9 @@ export default function SobreNosotros() {
       imagen: Kangoo,
     },
     {
-      nombre: "Toyota Corolla",
+      nombre: "Peugeot 408",
       descripcion: "Espacioso y elegante, la mejor elección para viajes ejecutivos.",
-      imagen: Corolla,
+      imagen: peugeot,
     },
     {
       nombre: "Chevrolet Spin",

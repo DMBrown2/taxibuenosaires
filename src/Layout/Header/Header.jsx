@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Link } from "react-scroll";
 import "./Header.css";
-import logo from "../../assets/images/header/logo.jpeg";
+import logo from "../../assets/images/header/logo.png";
 
 export default function Header() {
   const burgerRef = useRef();

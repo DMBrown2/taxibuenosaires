@@ -1,9 +1,9 @@
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Button from "../../components/Button/Button";
 import "./Servicios.css";
-import fotoAeropuerto from '../../assets/images/servicios/aeropuerto.webp'
-import fotoTurismo from '../../assets/images/servicios/turismo.webp'
-import fotoLargaDistancia from '../../assets/images/servicios/larga-distancia.webp'
+import fotoAeropuerto from '../../assets/images/servicios/aeropuerto.jpg'
+import fotoTurismo from '../../assets/images/servicios/turismo.jpg'
+import fotoLargaDistancia from '../../assets/images/servicios/larga-distancia.jpg'
 
 export default function Servicios() {
   const servicios = [

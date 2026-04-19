@@ -10,8 +10,8 @@ export default function Footer() {
 
         {/* Logo / Nombre */}
         <div className="footer-brand">
-          <h3>Taxi Baires</h3>
-          <p>Rápido, seguro y siempre a tu lado.</p>
+          <h3>Taxi Buenos Aires</h3>
+          {/* <p>Rápido, seguro y siempre a tu lado.</p> */}
         </div>
 
         {/* Navegación */}

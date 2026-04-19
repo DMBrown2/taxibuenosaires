@@ -1,4 +1,4 @@
-import taxiHeader from '../../assets/images/banner/banner1.webp';
+import taxiHeader from '../../assets/images/banner/banner1.jpg';
 import Button from '../../components/Button/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -9,8 +9,8 @@ export default function Banner() {
     <section className="section-banner" style={{ backgroundImage: `url(${taxiHeader})` }}>
       <div className="overlay">
         <div className="banner-content">
-          <h1 className="titulo-banner">Tu taxi de confianza en Buenos Aires</h1>
-          <p className="parrafo-banner">Rápido, seguro y siempre a tu lado.</p>
+          <h1 className="titulo-banner">Tu taxi de confianza en la ciudad</h1>
+          <p className="parrafo-banner">Rápido, seguro y siempre a tu lado. (LO SACAMOS?)</p>
 
           <a 
           className='banner-cta'

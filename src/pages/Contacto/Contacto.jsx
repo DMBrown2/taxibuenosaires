@@ -46,7 +46,7 @@ export default function Contacto() {
           >
             <FontAwesomeIcon icon={faInstagram} className="contacto-icon" />
             <p className="contacto-label">Instagram</p>
-            <p className="contacto-link">@taxi_baires</p>
+            <p className="contacto-link">@taxi__buenosaires</p>
           </a>
 
           {/* Email */}
