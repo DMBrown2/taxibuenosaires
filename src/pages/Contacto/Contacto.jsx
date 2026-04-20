@@ -40,7 +40,7 @@ export default function Contacto() {
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/taxi_baires/"
+            href="https://www.instagram.com/taxi__buenosaires/"
             target="_blank"
             rel="noopener noreferrer"
             className="contacto-card"

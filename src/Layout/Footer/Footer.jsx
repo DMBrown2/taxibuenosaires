@@ -40,7 +40,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Taxi Baires. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Taxi Buenos Aires. Todos los derechos reservados.</p>
       </div>
     </footer>
   );

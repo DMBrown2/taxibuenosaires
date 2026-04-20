@@ -11,7 +11,7 @@ export default function Banner() {
       <div className="overlay">
         <div className="banner-content">
           <h1 className="titulo-banner">Tu taxi de confianza en la ciudad</h1>
-          <p className="parrafo-banner">Rápido, seguro y siempre a tu lado. (LO SACAMOS?)</p>
+          <p className="parrafo-banner">Rápido, seguro y siempre a tu lado.</p>
 
           <a 
           className='banner-cta'
