@@ -1,3 +1,4 @@
+import { WHATSAPP_NUMBER } from '../../config/env.config';
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
@@ -24,7 +25,7 @@ export default function FloatingButtons() {
       {/* WhatsApp: siempre visible, abajo derecha */}
       <a
         className="btn-float btn-wsp"
-        href="https://wa.me/+5491157678654"
+        href={`https://wa.me/${WHATSAPP_NUMBER}`}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"

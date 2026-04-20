@@ -1,3 +1,4 @@
+import { WHATSAPP_NUMBER } from '../../config/env.config';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faShieldAlt, faCarSide, faMoneyCheck } from "@fortawesome/free-solid-svg-icons"; 
 import "./Nosotros.css";
@@ -77,7 +78,7 @@ export default function SobreNosotros() {
 
         <div className="nosotros-cta">
           <a 
-          href="https://wa.me/+5491157678654"
+          href={`https://wa.me/${WHATSAPP_NUMBER}`}
           target='_blank'
           rel='"noopener noreferrer"'>
 

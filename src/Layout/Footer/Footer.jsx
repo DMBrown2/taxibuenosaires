@@ -1,3 +1,4 @@
+import { WHATSAPP_NUMBER } from '../../config/env.config';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -25,7 +26,7 @@ export default function Footer() {
 
         {/* Contacto */}
         <div className="footer-contact">
-          <a href="https://wa.me/+5491157678654" target="_blank" rel="noopener noreferrer">
+          <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faWhatsapp} className="footer-icon" />
           </a>
           <a href="mailto:info.taxibaires@gmail.com">

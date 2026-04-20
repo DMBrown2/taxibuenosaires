@@ -1,3 +1,4 @@
+import { WHATSAPP_NUMBER } from '../../config/env.config';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -19,14 +20,14 @@ export default function Contacto() {
         <div className="contacto-grid">
           {/* WhatsApp */}
           <a
-            href="https://wa.me/+5491157678654"
+            href={`https://wa.me/${WHATSAPP_NUMBER}`}
             target="_blank"
             rel="noopener noreferrer"
             className="contacto-card"
           >
             <FontAwesomeIcon icon={faPhone} className="contacto-icon" />
             <p className="contacto-label">WhatsApp</p>
-            <p className="contacto-link">+54 9 11 5767-8654</p>
+            <p className="contacto-link">+54 9 11 5643-2239</p>
           </a>
 
           {/* Horarios */}

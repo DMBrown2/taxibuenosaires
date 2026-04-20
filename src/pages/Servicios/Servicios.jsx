@@ -1,3 +1,4 @@
+import { WHATSAPP_NUMBER } from '../../config/env.config';
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Button from "../../components/Button/Button";
 import "./Servicios.css";
@@ -55,7 +56,7 @@ export default function Servicios() {
 
         <div className="servicios-cta">
             <a 
-          href="https://wa.me/+5491157678654"
+          href={`https://wa.me/${WHATSAPP_NUMBER}`}
           target='_blank'
             >
 

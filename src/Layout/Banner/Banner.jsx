@@ -1,5 +1,6 @@
 import taxiHeader from '../../assets/images/banner/banner1.jpg';
 import Button from '../../components/Button/Button';
+import { WHATSAPP_NUMBER } from '../../config/env.config';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './Banner.css';
@@ -14,7 +15,7 @@ export default function Banner() {
 
           <a 
           className='banner-cta'
-          href="https://wa.me/+5491157678654"
+          href={`https://wa.me/${WHATSAPP_NUMBER}`}
           target='_blank'
           rel='"noopener noreferrer"'>
 
