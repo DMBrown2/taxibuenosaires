@@ -32,7 +32,7 @@ export default function Footer() {
           <a href="mailto:info.taxibaires@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} className="footer-icon" />
           </a>
-          <a href="https://www.instagram.com/taxi_baires/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/taxi__buenosaires/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} className="footer-icon" />
           </a>
         </div>

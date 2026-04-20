@@ -54,7 +54,7 @@
 }
 
 .contacto-card:hover .contacto-icon {
-  color: var(--lighter-color); /* verde más oscuro al hover */
+  color: var(--lighter-color); /* amarillo más oscuro al hover */
 }
 
 .contacto-label {
